@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Chrona</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="chrona">Chrona</string>
+    <string name="sign_into_your_account">Sign Into Your Account.</string>
+    <string name="continue_building_your_time_and_intention">Continue building your time and intention.</string>
+    <string name="email_username">Email / Username</string>
+    <string name="e_g_jonappl1">E.g jonappl1</string>
+    <string name="password">Password</string>
+    <string name="password_hint">********</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="jon_appleseed">Jon Appleseed</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="jon_appleseed_jon_com">jon.appleseed@jon.com</string>
+    <string name="simple_fast_and_ready_to_personalise_your_time">Simple, fast and ready to personalise your time.</string>
+    <string name="sign_up_to_your_account">Sign Up To Your Account</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="join_boundless">Join Boundless</string>
+
+    <string name="e_g_jesus_is_king">E.g. jesus@is.king</string>
+    <string name="e_g_jesus_is_king_or_phone">E.g. jesus@is.king or 0422068125</string>
+    <string name="next">Next</string>
+    <string name="log_in_instead">Log in instead</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="e_g_jesus">E.g. Jesus</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_g_christ">E.g. Christ</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="create_account_cont">Create\nAccount Cont.</string>
+    <string name="userProfile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="state">State</string>
+    <string name="select">Select</string>
+    <string name="create_account_zero">Create Account</string>
+    <string name="e_g_0422068125">E.g 0422068125</string>
+    <string name="reactions">Reactions</string>
+    <string name="remove_my_reaction">Remove my reaction</string>
+    <string name="a_user_reacted">A user reacted</string>
+    <string name="it_s_their_birthday">It\'s their birthday</string>
+    <string name="present">🎁</string>
+    <string name="cake">🎂</string>
+    <string name="someone_sent_something">Someone sent something!</string>
+    <string name="verses_quotes_of_the_day">Verses/Quotes of the day</string>
+    <string name="home">Home</string>
+    <string name="content2">Content 2</string>
+    <string name="content1">Content 1</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="name">Name</string>
+    <string name="hashtag">#</string>
+    <string name="forgot_password_text">Not to worry, it happens all the time! Just provide us with your email or phone number and we’ll sort you out!</string>
+    <string name="email_or_phone_number">Email or Phone Number</string>
+    <string name="forgot_password_qstn">Forgot\nPassword?</string>
+    <string name="we_sent_a_6_digit_code_to_the_email">We sent a 6-digit code to the email</string>
+    <string name="enter_the_code_below">Enter the code below</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="resend">Resend</string>
+    <string name="not_now">Not Now</string>
+    <string name="verify">Verify</string>
+    <string name="change_password">Change\nPassword</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="we_will_send_a_code">We\'ll send an 6-digit code to your email to verify if its really you</string>
+    <string name="_123456">123456</string>
+    <string name="send_code">Send Code</string>
+    <string name="add_post">Add Post</string>
+    <string name="anon">Anon</string>
+    <string name="post_editor">Post Editor</string>
+    <string name="quote">Quote</string>
+    <string name="post_decorator">Post Decorator</string>
+    <string name="you">You</string>
+    <string name="some_time_ago">Some time ago</string>
+    <string name="reference">Reference</string>
+    <string name="choose_a_font">Choose a font</string>
+    <string name="give_your_content_a_little_extra_that_with_a_font_of_your_choice">Give your content a little extra that with a font of your choice!</string>
+    <string name="let_s_get_you_a_background">Let\'s get you a background</string>
+    <string name="upload_your_own_or_choose_one_of_ours">Upload your own or choose one of ours!</string>
+    <string name="content">Content</string>
+    <string name="what_do_you_want_to_change">What do you want to change?</string>
+    <string name="perhaps_a_famous_philosopher">Perhaps a famous philosopher?</string>
+    <string name="perhaps_something_profound">Perhaps something profound?</string>
+    <string name="beautify_amp_preview_post"><![CDATA[Beautify & Preview Post]]></string>
+    <string name="post">Post</string>
+    <string name="preview">Preview</string>
+    <string name="done">Done</string>
+    <string name="who">We will never know!</string>
+    <string name="rooms">Rooms</string>
+    <string name="say_something">Say something…</string>
+    <string name="replying_to">Replying to …</string>
+    <string name="replying_to_you">Replying to you</string>
+    <string name="some_really_long_text">This is some really long text, it just keeps on going and going and does not stop. Like honestly, how much longer will it keep going. At this point lunch is gonna end before I finish reading this don you not think? Like it is STILL going bro can it actually be serious. And now it is just wrap around. This is some really long text, it just keeps on going and going and does not stop. Like honestly, how much longer will it keep going. At this point lunch is gonna end before I finish reading this do you not think? Like it is STILL going bro can it actually be serious.</string>
+    <string name="this_is_mean_t_to_be_someone_s_message">This is mean\'t to be someone\'s message.</string>
+    <string name="room_name">Room Name</string>
+    <string name="some_user">Some User</string>
+    <string name="some_message">Some Message</string>
+    <string name="some_chat_room_name">Some Chat Room Name</string>
+    <string name="you_sent_an_image">You: Sent an image 📷</string>
+    <string name="sent">Sent</string>
+    <string name="delivered">Delivered</string>
+    <string name="a_time">A Time</string>
+    <string name="copy">Copy</string>
+    <string name="reply">Reply</string>
+    <string name="image">📷 Image</string>
+    <string name="yourself">yourself</string>
+    <string name="boundless_youth">Boundless Youth</string>
+    <string name="brandon_chikandiwa">Brandon Chikandiwa</string>
+    <string name="description">Description</string>
+    <string name="register">Register</string>
+    <string name="action_btn_text">Action Button</string>
+    <string name="content_1">Content 1</string>
+    <string name="content_2">Content 2</string>
+    <string name="story_tag">Story Tag</string>
+    <string name="title">Title</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="profile">Profile</string>
+    <string name="calendar">Calendar</string>
+    <string name="shared">Shared</string>
+    <string name="plan_something">Plan Something…</string>
+    <string name="voice_input">Voice Input</string>
+    <string name="toggle_chat">Toggle Chat</string>
+</resources>

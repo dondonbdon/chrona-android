@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="Theme.Chrona" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/m1</item>
+        <item name="colorPrimaryVariant">@color/m2</item>
+        <item name="colorOnPrimary">@color/m2</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSecondary">@color/m2</item>
+        <item name="colorSecondaryVariant">@color/m3</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorTertiary">@color/black</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <item name="android:textColorSecondaryInverse">@color/black</item>
+        <item name="android:textColorTertiaryInverse">@color/black</item>
+
+        <item name="android:statusBarColor">@color/m2</item>
+        <item name="android:navigationBarColor">@color/grey10</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="fontFamily">@font/inria_sans_regular</item>
+        <item name="editTextStyle">@style/CustomEditText</item>
+    </style>
+
+    <style name="MyMaterialButton" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/inria_sans_regular</item>
+        <item name="android:fontFamily">@font/inria_sans_regular</item>
+    </style>
+
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/grey5</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Chrona</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+
+    </style>
+
+<!--    <style name="BottomNavText" parent="TextAppearance.MaterialComponents.Caption">-->
+<!--        <item name="android:fontFamily">@font/inria_sans_regular</item>-->
+<!--        <item name="android:textSize">11sp</item> <item name="android:textAllCaps">false</item>-->
+<!--    </style>-->
+
+<!--    <style name="BottomNavText.Active">-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+</resources>

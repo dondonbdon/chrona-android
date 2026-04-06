@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:checked="true"
+        android:iconTint="@color/black_white"
+        android:icon="@drawable/ic_home_fill" />
+
+    <item android:id="@+id/nav_calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/ic_calendar_fill" />
+
+    <item android:id="@+id/nav_shared"
+        android:title="@string/shared"
+        android:icon="@drawable/ic_group_fill" />
+
+    <item android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_person_fill" />
+</menu>

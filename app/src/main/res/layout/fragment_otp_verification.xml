@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="#20000000"
+    tools:context=".fragment.OtpVerificationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_35dp_top"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/verificationProgressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginHorizontal="35dp"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:background="@drawable/rect_20dp"
+            android:backgroundTint="@color/grey15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.125" />
+
+        <TextView
+            android:id="@+id/reactionsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fo_outfit_bold"
+            android:text="@string/email_verification"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/verificationEmailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fo_outfit_regular"
+            android:text="@string/we_sent_a_6_digit_code_to_the_email"
+            android:visibility="gone"
+            android:textColor="@color/grey"
+            android:paddingHorizontal="16dp"
+            android:textSize="16sp"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reactionsText" />
+
+        <TextView
+            android:id="@+id/verificationEmailSecondaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:fontFamily="@font/fo_outfit_regular"
+            android:gravity="center"
+            android:text="@string/we_will_send_a_code"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verificationEmailText" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verificationEmailSecondaryText"
+            tools:ignore="LabelFor">
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditOne"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="1"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/verificationEditTwo"-->
+<!--                app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditTwo"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:maxLength="1"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/verificationEditThree"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/verificationEditOne" />-->
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditThree"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:maxLength="1"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/verificationEditFour"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/verificationEditTwo" />-->
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditFour"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="1"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/verificationEditFive"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/verificationEditThree" />-->
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditFive"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="1"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/verificationEditSix"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/verificationEditFour" />-->
+
+<!--            <dev.bti.boundless.util.PasteDetectEditText-->
+<!--                android:id="@+id/verificationEditSix"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:autofillHints="@null"-->
+<!--                android:background="@drawable/oval_stroke"-->
+<!--                android:fontFamily="@font/fo_outfit_regular"-->
+<!--                android:cursorVisible="false"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="1"-->
+<!--                android:textSize="18sp"-->
+<!--                app:layout_constraintDimensionRatio="1:1"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/verificationEditFive"-->
+<!--                />-->
+
+            <dev.bti.chrona.util.PasteDetectEditText
+                android:id="@+id/verificationEditZero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:autofillHints="@null"
+                android:background="@drawable/rect_20dp"
+                android:paddingHorizontal="50dp"
+                android:enabled="false"
+                android:backgroundTint="@color/grey10"
+                android:cursorVisible="false"
+                android:fontFamily="@font/fo_outfit_regular"
+                android:gravity="center"
+                android:hint="@null"
+                android:inputType="number"
+                android:maxLength="6"
+                android:textSize="18sp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/verificationResendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect_20dp"
+            android:backgroundTint="@color/grey15"
+            android:fontFamily="@font/fo_outfit_regular"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:text="@string/resend"
+            android:textColor="@color/grey"
+            android:visibility="gone"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verificationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rect_20dp"
+            android:backgroundTint="@color/m1"
+            android:fontFamily="@font/fo_outfit_regular"
+            android:outlineProvider="none"
+            android:text="@string/send_code"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/verificationOptBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verificationResendText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verificationOptBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rect_20dp"
+            android:backgroundTint="@color/grey10"
+            android:fontFamily="@font/fo_outfit_regular"
+            android:outlineProvider="none"
+            android:text="@string/not_now"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
