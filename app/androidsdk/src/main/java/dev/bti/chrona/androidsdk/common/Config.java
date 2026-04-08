@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 public class Config {
     public static Config INSTANCE;
-    String serverAddress = "10.0.2.2:8080";
+    String serverAddress = "192.168.0.6:8080";
 
     public static Config GetInstance() {
         if (INSTANCE == null) {
